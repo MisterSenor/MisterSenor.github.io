@@ -1,0 +1,21 @@
+# Site settings
+title: An old dog learns a new trick 
+header-img: img/home-bg.png
+email: nathan.visak@gmail.com
+copyright_name: MisterSenor
+description: > # this means to ignore newlines until "baseurl:"
+  Learning a new professional skill at 35 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: MisterSenor218
+github_username:  MisterSenor
+learn_profile: MisterSenor
+email_username: nathan.visak@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
